@@ -71,4 +71,9 @@ sumbitButton.value = "Engage!"
 "Engage!"
 13. sumbitButton.disabled = "true"
 "true"
-14. 
+14. var sideBar = document.querySelectorAll(".bio-info-value")
+undefined
+sideBar
+(3) [span.bio-info-value.bio-info-name, span.bio-info-value.bio-info-location, span.bio-info-value.bio-info-phone]
+sideBar.forEach(function(bar) {bar.innerText = ''})
+undefined
