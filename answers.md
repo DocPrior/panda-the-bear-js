@@ -63,3 +63,12 @@ emailText
 <input type=​"email" name=​"email" class=​"contact-info" id=​"email" placeholder=​"Email">​
 emailText.value = "koalathebear@gmail.com"
 "koalathebear@gmail.com"
+12. var sumbitButton = document.querySelector("#submit")
+undefined
+sumbitButton
+<input type=​"submit" name=​"submit" id=​"submit" value=​"Submit">​
+sumbitButton.value = "Engage!"
+"Engage!"
+13. sumbitButton.disabled = "true"
+"true"
+14. 
