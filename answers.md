@@ -45,3 +45,21 @@ nameText
 <input type=​"text" name=​"name" class=​"contact-info" id=​"name" placeholder=​"Name">​
 nameText.placeholder = "Identify Yourself"
 "Identify Yourself"
+9. var messageText = document.querySelector("#message")
+undefined
+messageText
+<textarea name=​"message" id=​"message" placeholder=​"Message">​</textarea>​
+messageText.placeholder = "state your business"
+"state your business"
+10. var nameText = document.querySelector("#name")
+undefined
+nameText
+<input type=​"text" name=​"name" class=​"contact-info" id=​"name" placeholder=​"Identify Yourself">​
+nameText.value = "your nemesis"
+"your nemesis"
+11. var emailText = document.querySelector("#email")
+undefined
+emailText
+<input type=​"email" name=​"email" class=​"contact-info" id=​"email" placeholder=​"Email">​
+emailText.value = "koalathebear@gmail.com"
+"koalathebear@gmail.com"
