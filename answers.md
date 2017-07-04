@@ -29,3 +29,19 @@ employment.innerText = "something else"
 5. var highlight = document.querySelectorAll(".highlight")
 undefined
 highlight.forEach(function(light) {light.style.background = "blue"})
+6. var headingText = document.querySelector("h1")
+undefined
+headingText
+<h1 class=​"highlight" style=​"background:​ blue;​">​Sara​</h1>​
+headingText.style.fontFamily = "monospace"
+"monospace"
+7. sideButton = document.querySelectorAll(".action-icon-bg")
+(2) [a.action-icon-bg, a.action-icon-bg]
+sideButton.forEach(function(button) {button.style.background = "yellow"})
+undefined
+8. var nameText = document.querySelector('input[placeholder = "Name"]')
+undefined
+nameText
+<input type=​"text" name=​"name" class=​"contact-info" id=​"name" placeholder=​"Name">​
+nameText.placeholder = "Identify Yourself"
+"Identify Yourself"
