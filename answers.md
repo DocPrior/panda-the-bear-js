@@ -23,3 +23,9 @@ employment
 <h3 class=​"info-title">​<i class=​"icon-suitcase">​…​</i>​" &nbsp; Employment"</h3>​
 employment.innerText = "something else"
 "something else"
+
+4. document.body.style.background ="pink"
+"pink"
+5. var highlight = document.querySelectorAll(".highlight")
+undefined
+highlight.forEach(function(light) {light.style.background = "blue"})
